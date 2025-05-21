@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "smartersattendancepannel",
+    "private_key_id": "1c5324b6451b97ef7f57ae51d3423d57bd01bc9d",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCiJDQ9PkrGioIV\nwkEvdak102oVWsG1ZFJ9g3U0B35I4qyzLBHkD9WmIyaWthg44+ltS1A5YcUEkbLL\nYF3fgHVyiYlu13/bHPdX/+R5bNW6FEPkaKZF1rVeGt86ML52yJJp0ebiCi/pwXuY\nHKQJ+bNCxytqoUXS3+pxfxDLWVOFnjkNiS71dORuqTGe4HWMRC5gK0oeoVb5ju5N\nNhCXHliq65j4Na7cVsFZ98BWOjLhtMjnAcumR6tC0NLFHGZqnUNDU0ur4+8xQHs6\nWy0JV7Ur6qdpXGcX8PNwPSunzunBFGzpx/4klIHYBZxsn6pD/UCIvIodDPiOnDar\nW6nSVe9rAgMBAAECggEACM4chCLo3qVQ8SuObKxgFws3HJfEIzyieix0ZfHuOrkM\nleJTymXNvWr1QoP7BsPhvkyzu5oCn//ljMPb9TI9ro2nh/xt9hE5oW7FEo8FgEhv\nc2z3cp15VfXxn3BcN4km4lZCyo2xEmmuc5FCm0QTJxI32l+Nsij0y1sSJ2jfb0cV\nQk0xZ4P4B/TVl16BGOJ2Yszu7Z4d36i/fK35H4hb478O7UuUnsW9V/4+ppOQRNUS\n556TEQheIZ2ZkcSj7ZIXK3kdV2juCiQqjbZFdnjrdb7Dwd+t5P2a/bcQ12/aRT5A\nfRvRxnSBYHhE/ildXQoWocIwwYzYZn0IU4bUvTOeMQKBgQDPjuuQ6WGJ51oiuxkz\n3pg5D9zGXKRw/Qp2s6JM7Ft+zzLUbaY9eLk/oz2oKp/KXaJiBK/fywZreTY98y4R\nbl4KhJ+ftm1QK5+GH6nCceqgl8U/P+8HoQFCnfb+ssEp3NcilwwW1rRIkKF49jOd\nMqDG1tJl4eNNL2B3Ocl7h3ZdaQKBgQDH+73va9wkzU6D598al57rXk9luSMhReng\n4AkrNdb2DCJ09fza4rC0J/mQBOOk+xeHIYMk7OsjBD8SmYXEY+Wv5Jayd35t43Jw\nwuDzIjleCyy1JzzolmfjOLLk6zikHpv4S/NMWLeYX16RDapy5F9N5oIqSrp3/WCE\nfhNZO4bHswKBgHWVKsBaZkZgiQCZ68oltSjGYrUBMKtNvorGcxCO6bpqGQqc34t9\ng7yYdsp48zMKXn6W1ye59XYXIfJwfE2lr6LXxTIOf9jmDaZG873TGS9HK5gMWRaC\nUJtzr8RUcfeMQ1g2J8Qcd9+QB9nl6BGK5+gdNO5AzKsiRszkMM9JS3XZAoGBAKkI\nTZhrEJ5CspSnjlpJwder1Wxjuh/Lmk2qz9UoItPBmfZGXT0d0sHT8AsdNtUiLtbX\nKqQxZOYqFq2/+eLvlRrBGecrPT/gucA52C1pxheJVnaf/cmSJ6lVKVB4yV1fSfHr\nMHBdpIE0SxhL9sA565xKs8bPdyEol0Yl0nDf8aIlAoGAYbema60GDFx9nzTayWqK\n+NBtwO80QG7PM3EbK8MeYIUiDlG+C35d0A04GNhnfb6OcsG+KCZK6HCrPf8bfK0I\nuJUyN4Zb6juk2ULxdIVI0S8Wx+w5NEDRD18lGJEMlvXPshUzOzYqi0PkB2io4XM0\nIhb7U1dHPFRCJ6zOyyTklOQ=\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-fbsvc@smartersattendancepannel.iam.gserviceaccount.com",
+    "client_id": "112053627279223875044",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40smartersattendancepannel.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  

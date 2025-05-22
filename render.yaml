@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: my-knex-app
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    preDeployCommand: |
+      npx knex migrate:latest
+      npx knex seed:run

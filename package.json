@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
- "start": "node index.js",
-  "migrate": "knex migrate:latest",
-  "seed": "knex seed:run"
+ "start": "knex migrate:latest && knex seed:run && node index.js"
   },
   "keywords": [],
   "author": "",

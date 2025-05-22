@@ -1,14 +1,34 @@
-
 require('dotenv').config();
 
 module.exports = {
   development: {
+    client: 'mysql',
+    connection: {
+      host: process.env.DB_HOST,
+      user: process.env.DB_USER,
+      password: process.env.DB_PASS,
+      database: process.env.DB_NAME
+    },
+    migrations: {
+      directory: './migrations'
+    },
+    seeds: {
+      directory: './seeds'
+    }
+  },
+  production: {
     client: 'mysql2',
     connection: {
-      host: process.env.DATABASE_HOST,
-      user: process.env.DATABASE_USER,
-      password: process.env.DATABASE_PASS,
-      database: process.env.DATABASE
+      host: process.env.DB_HOST,
+      user: process.env.DB_USER,
+      password: process.env.DB_PASS,
+      database: process.env.DB_NAME
+    },
+    migrations: {
+      directory: './migrations'
+    },
+    seeds: {
+      directory: './seeds'
     }
   }
 };

@@ -12,7 +12,11 @@ const HrRoute = require("./route/Hrroute.js");
 const Hremp = require("./route/hremp.js");
 const jwt = require("jsonwebtoken");
 const app = express();
+<<<<<<< HEAD
 const PORT = process.env.PORT || ;
+=======
+const PORT = process.env.PORT || 3306;
+>>>>>>> 98624aa79f016d1ea45964094902839285bc12a8
 const uploadDir = path.join(__dirname, "uploads");
 const MessageDir = path.join(__dirname, "messageImage");
 const MessageRoute = require("./route/message.js");

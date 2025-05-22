@@ -247,7 +247,7 @@ const logoutUser = async (req, res) => {
 const totalUserCount = async (req, res) => {
   try {
     const [result] = await db.sequelize.query(
-      "SELECT COUNT(*) AS count FROM users WHERE id <> 1"
+      "SELECT COUNT(*) AS count FROM users WHERE id <> 1 AND role <> 1"
     );
     res.status(200).send(result[0].count.toString());
   } catch (error) {
@@ -259,7 +259,7 @@ const totalUserCount = async (req, res) => {
 const activeUserCount = async (req, res) => {
   try {
     const [result] = await db.sequelize.query(
-      "SELECT COUNT(*) AS user_active FROM users WHERE status = '1' AND id <> 1"
+      "SELECT COUNT(*) AS user_active FROM users WHERE status = '1'  AND role <> 1"
     );
     res.status(200).send(result[0].user_active.toString());
   } catch (error) {
@@ -271,7 +271,7 @@ const activeUserCount = async (req, res) => {
 const inactiveUserCount = async (req, res) => {
   try {
     const [result] = await db.sequelize.query(
-      "SELECT COUNT(*) AS user_inactive FROM users WHERE status = '0' AND id <> 1"
+      "SELECT COUNT(*) AS user_inactive FROM users WHERE status = '0'  AND role <> 1"
     );
     res.status(200).send(result[0].user_inactive.toString());
   } catch (error) {
@@ -279,6 +279,7 @@ const inactiveUserCount = async (req, res) => {
     res.status(500).send("Server Error");
   }
 };
+
 
 const forgotPassword = async (req, res) => {
   const { email } = req.body;
